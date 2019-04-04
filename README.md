@@ -1,5 +1,10 @@
-## Genome analysis
+# Genome Analysis
 
+## Background
+
+## Aim 
+
+## Project Plan
 
 | Date       | Week | Process                               | Software                 | Estimated time    | 
 | ---------- | ---- | ------------------------------------- | ------------------------ | ----------------- | 
