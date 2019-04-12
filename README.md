@@ -12,7 +12,7 @@ To characterize transcriptomic and epigenomic factors to the development of bat 
 | 04-04-2019 | 14   | Familiarize with files and UPPMAX     | --                       | 1 h               |
 | 04-04-2019 | 14   | Quality check of reads                | FastQC                   | 3 min             |
 | 05-04-2019 | 14   | Trimming of genomic and RNA reads     | Trimmomatic              | 1-10 min per file |
-| 11-04-2019 | 15   | Genome Assembly                       | SOAPdenovo               | 1.5 h             |
+| 11-04-2019 | 15   | Genome Assembly                       | SOAPdenovo, SPAdes       | 1.5 h             |
 | 12-04-2019 | 15   | Assembly quality assessment           | BCFtools                 | 1.5 h             |
 | 24-04-2019 | 17   | Transcriptome assembly                | Trinity                  | 1.5 h             |
 | 29-04-2019 | 18   | Genome annotation                     | Maker2                   | 3.5 h             |
