@@ -30,3 +30,12 @@ To characterize transcriptomic and epigenomic factors to the development of bat 
 27-04-2019: Wiki is finished <br>
 28-04-2019 - 29-04-2019: Presentations
 
+## SOAPdenovo
+### Parameters
+- avg_ins: Based on the size of each library
+- reverse_seq: If the library was paired-end it was set to 0, if mate-paired it was set to 1
+- asm_flags: If the library was paired-end it was set to 0, if mate-paired it was set to 
+- rd_len_cutoff: 
+- rank: 
+- pair_num_cutoff: 
+- map_len: 
