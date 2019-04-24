@@ -9,8 +9,9 @@
 
 # Load modules
 module load bioinfo-tools
+module load Trinity
 
-Trinity --seqType fq --max_memory 13.6G \
+/sw/bioinfo/trinity/2.4.0/rackham/Trinity --seqType fq --max_memory 13.6G \
 --left \
 /home/stellab/private/genome_analysis/raw_data/sel3/rna_seq_data/trimmed/sel3_SRR1719013.trim_1P.fastq.gz,\
 /home/stellab/private/genome_analysis/raw_data/sel3/rna_seq_data/trimmed/sel3_SRR1719014.trim_1P.fastq.gz,\
