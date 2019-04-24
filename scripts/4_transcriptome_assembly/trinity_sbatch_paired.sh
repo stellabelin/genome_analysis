@@ -2,14 +2,14 @@
 #SBATCH -A g2019003
 #SBATCH -p core
 #SBATCH -n 2
-#SBATCH -t 200:00:00
-#SBATCH -J genome_assembly_spades
+#SBATCH -t 00:03:00
+#SBATCH -J genome_assembly_trinity_paired
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user stella.belin@me.com
 
 # Load modules
 module load bioinfo-tools
-module load Trinity
+module load trinity
 
 /sw/bioinfo/trinity/2.4.0/rackham/Trinity --seqType fq --max_memory 13.6G \
 --left \
