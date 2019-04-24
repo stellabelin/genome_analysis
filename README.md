@@ -12,7 +12,7 @@ To characterize transcriptomic and epigenomic factors to the development of bat 
 | 04-04-2019 | 14   | Familiarize with files and UPPMAX     | --                       | 1 h               |
 | 04-04-2019 | 14   | Quality check of reads                | FastQC                   | 3 min             |
 | 05-04-2019 | 14   | Trimming of genomic and RNA reads     | Trimmomatic              | 1-10 min per file |
-| 11-04-2019 | 15   | Genome Assembly                       | SOAPdenovo               | 1.5 h             |
+| 11-04-2019 | 15   | Genome Assembly                       | SOAPdenovo, SPAdes       | 1.5 h             |
 | 12-04-2019 | 15   | Assembly quality assessment           | BCFtools                 | 1.5 h             |
 | 24-04-2019 | 17   | Transcriptome assembly                | Trinity                  | 1.5 h             |
 | 29-04-2019 | 18   | Genome annotation                     | Maker2                   | 3.5 h             |
@@ -30,3 +30,12 @@ To characterize transcriptomic and epigenomic factors to the development of bat 
 27-04-2019: Wiki is finished <br>
 28-04-2019 - 29-04-2019: Presentations
 
+## SOAPdenovo
+### Parameters
+- avg_ins: Based on the size of each library
+- reverse_seq: If the library was paired-end it was set to 0, if mate-paired it was set to 1
+- asm_flags: If the library was shorter than 800 it was set to 2 (only as scaffolds), if mate-paired it was set to 3 (both scaffolds and contigs)
+- rd_len_cutoff: 
+- rank: 1
+- pair_num_cutoff: If the library was paired-end it was set to 3, if mate-paired it was set to 5
+- map_len: If the library was paired-end it was set to 32, if mate-paired it was set to 35
