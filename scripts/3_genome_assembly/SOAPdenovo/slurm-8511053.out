@@ -1,0 +1,39 @@
+
+Version 2.04: released on July 13th, 2012
+Compile Nov 20 2013	12:17:09
+
+********************
+Pregraph
+********************
+
+Parameters: pregraph -s confiq_file.config -K 49 -o /home/stellab/private/genome_analysis/results/3_genome_assembly/kmer_49/new_config 
+
+In confiq_file.config, 1 lib(s), maximum read length 120, maximum name length 256.
+
+8 thread(s) initialized.
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819794.trim_1P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819794.trim_2P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819795.trim_1P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819795.trim_2P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819796.trim_1P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819796.trim_2P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819797.trim_1P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819797.trim_2P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819798.trim_1P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819798.trim_2P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819799.trim_1P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819799.trim_2P.fastq.gz 
+/var/spool/slurmd/job8511053/slurm_script: rad 14: 19185 Dödad                  /sw/bioinfo/SOAPdenovo/2.04-r240/rackham/bin/SOAPdenovo-63mer all -s confiq_file.config -K 49 -o /home/stellab/private/genome_analysis/results/3_genome_assembly/kmer_49/new_config
+slurmstepd: error: Detected 3 oom-kill event(s) in step 8511053.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
