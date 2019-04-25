@@ -1,0 +1,357 @@
+
+Version 2.04: released on July 13th, 2012
+Compile Nov 20 2013	12:17:09
+
+********************
+Pregraph
+********************
+
+Parameters: pregraph -s confiq_file.config -K 49 -o /home/stellab/private/genome_analysis/results/3_genome_assembly/kmer_49/new_config 
+
+In confiq_file.config, 1 lib(s), maximum read length 120, maximum name length 256.
+
+8 thread(s) initialized.
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819794.trim_1P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819794.trim_2P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819795.trim_1P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819795.trim_2P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819796.trim_1P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819796.trim_2P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819797.trim_1P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819797.trim_2P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819798.trim_1P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819798.trim_2P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819799.trim_1P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819799.trim_2P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819794.trim_1U.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819794.trim_2U.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819795.trim_1U.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819795.trim_2U.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819796.trim_1U.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819796.trim_2U.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819797.trim_1U.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819797.trim_2U.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819798.trim_1U.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819798.trim_2U.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819799.trim_1U.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819799.trim_2U.fastq.gz 
+Time spent on hashing reads: 486s, 49384001 read(s) processed.
+LIB(s) information:
+ [LIB] 0, avg_ins 5, reverse 1.
+231194679 node(s) allocated, 2335886764 kmer(s) in reads, 2335886764 kmer(s) processed.
+done hashing nodes
+218866346 linear node(s) marked.
+Time spent on marking linear nodes: 8s.
+Time spent on pre-graph construction: 494s.
+
+Start to remove frequency-one-kmer tips shorter than 98.
+Total 3973897 tip(s) removed.
+8 thread(s) initialized.
+1456875 linear node(s) marked.
+Start to remove tips with minority links.
+2219953 tip(s) removed in cycle 1.
+19488 tip(s) removed in cycle 2.
+91 tip(s) removed in cycle 3.
+0 tip(s) removed in cycle 4.
+Total 2239532 tip(s) removed.
+8 thread(s) initialized.
+0 linear node(s) marked.
+Time spent on removing tips: 144s.
+
+8070403 (4035277) edge(s) and 984172 extra node(s) constructed.
+Time spent on constructing edges: 125s.
+
+In file: confiq_file.config, max seq len 120, max name len 256.
+8 thread(s) initialized.
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819794.trim_1P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819794.trim_2P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819795.trim_1P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819795.trim_2P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819796.trim_1P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819796.trim_2P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819797.trim_1P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819797.trim_2P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819798.trim_1P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819798.trim_2P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819799.trim_1P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819799.trim_2P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819794.trim_1U.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819794.trim_2U.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819795.trim_1U.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819795.trim_2U.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819796.trim_1U.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819796.trim_2U.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819797.trim_1U.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819797.trim_2U.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819798.trim_1U.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819798.trim_2U.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819799.trim_1U.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819799.trim_2U.fastq.gz 
+49384001 read(s) processed.
+Time spent on:
+ importing reads: 81s,
+ chopping reads to kmers: 60s,
+ searching kmers: 291s,
+ aligning reads to edges: 91s,
+ searching (K+1)mers: 53s,
+ adding pre-arcs: 58s,
+ recording read paths: 0s.
+0 marker(s) output.
+Reads alignment done, 5630399 read(s) deleted, 8540881 pre-arc(s) added.
+LIB(s) information:
+ [LIB] 0, avg_ins 5, reverse 1.
+Time spent on aligning reads: 648s.
+
+2809884 vertex(es) output.
+Overall time spent on constructing pre-graph: 23m.
+
+
+********************
+Contig
+********************
+
+Parameters: contig -g /home/stellab/private/genome_analysis/results/3_genome_assembly/kmer_49/new_config -M 1 -s confiq_file.config 
+
+There are 2809884 kmer(s) in vertex file.
+There are 8070403 edge(s) in edge file.
+Kmers sorted.
+8070403 edge(s) input.
+10343250 pre-arcs loaded.
+2016792 none-palindrome edge(s) swapped, 0 palindrome edge(s) processed.
+8070403 edge(s) sorted.
+Arcs sorted.
+Start to pinch bubbles, cutoff 0.100000, MAX NODE NUM 3, MAX DIFF NUM 2.
+131400 start points, 6858697 dheap nodes.
+2235020 pair(s) found, 21100 pair of path(s) compared, 15592 pair(s) merged.
+Sequence comparison failed:
+ Path crossing deleted edge                         0
+ Length difference of two paths greater than two    1693
+ Mismatch score greater than cutoff (2)             632
+ Mismatch score ratio greater than cutoff (0.1)     0
+ Path length shorter than (Kmer-1)                  3183
+DFibHeap: 939416 node(s) allocated.
+191631 edge(s) concatenated in cycle 1.
+1151 edge(s) concatenated in cycle 2.
+3 edge(s) concatenated in cycle 3.
+0 edge(s) concatenated in cycle 4.
+Time spent on pinching bubbles: 22s.
+Start to destroy weak inner edges.
+265176 weak inner edge(s) destroyed in cycle 1.
+1704 weak inner edge(s) destroyed in cycle 2.
+9 weak inner edge(s) destroyed in cycle 3.
+0 weak inner edge(s) destroyed in cycle 4.
+529161 dead arc(s) removed.
+44367 inner edge(s) with coverage lower than or equal to 1 destroyed.
+96285 dead arc(s) removed.
+431929 edge(s) concatenated in cycle 1.
+2812 edge(s) concatenated in cycle 2.
+0 edge(s) concatenated in cycle 3.
+Before compacting, 8070403 edge(s) existed.
+After compacting, 6160773 edge(s) left.
+
+Strict: 0, cutoff length: 98.
+456817 tips cut in cycle 1.
+82934 tips cut in cycle 2.
+18709 tips cut in cycle 3.
+5344 tips cut in cycle 4.
+2054 tips cut in cycle 5.
+878 tips cut in cycle 6.
+433 tips cut in cycle 7.
+199 tips cut in cycle 8.
+93 tips cut in cycle 9.
+33 tips cut in cycle 10.
+10 tips cut in cycle 11.
+12 tips cut in cycle 12.
+13 tips cut in cycle 13.
+9 tips cut in cycle 14.
+10 tips cut in cycle 15.
+13 tips cut in cycle 16.
+7 tips cut in cycle 17.
+0 tips cut in cycle 18.
+347162 dead arc(s) removed.
+248035 edge(s) concatenated in cycle 1.
+1553 edge(s) concatenated in cycle 2.
+3 edge(s) concatenated in cycle 3.
+0 edge(s) concatenated in cycle 4.
+Before compacting, 6160773 edge(s) existed.
+After compacting, 4526455 edge(s) left.
+
+There are 344218 contig(s) longer than 100, sum up 67839647 bp, with average length 197.
+The longest length is 16563 bp, contig N50 is 202 bp,contig N90 is 119 bp.
+2263297 contig(s) longer than 50 output.
+
+Time spent on constructing contig: 1m.
+
+
+********************
+Map
+********************
+
+Parameters: map -s confiq_file.config -g /home/stellab/private/genome_analysis/results/3_genome_assembly/kmer_49/new_config -K 49 
+
+Kmer size: 49.
+Contig length cutoff: 51.
+
+2263297 contig(s), maximum sequence length 16563, minimum sequence length 50, maximum name length 10.
+Time spent on parsing contigs file: 0s.
+8 thread(s) initialized.
+Time spent on hashing contigs: 18s.
+66209216 node(s) allocated, 68128237 kmer(s) in contigs, 68128237 kmer(s) processed.
+Time spent on graph construction: 18s.
+
+Time spent on aligning long reads: 0s.
+
+In file: confiq_file.config, max seq len 120, max name len 256
+8 thread(s) initialized.
+4526455 edge(s) in the graph.
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819794.trim_1P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819794.trim_2P.fastq.gz 
+Current insert size is 5, map_len is 32.
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819795.trim_1P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819795.trim_2P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819796.trim_1P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819796.trim_2P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819797.trim_1P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819797.trim_2P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819798.trim_1P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819798.trim_2P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819799.trim_1P.fastq.gz 
+Import reads from file:
+ /home/stellab/private/genome_analysis/raw_data/sel3/wgs_data/sel3_SRR5819799.trim_2P.fastq.gz 
+
+Total reads         43938106
+Reads in gaps       26796528
+Ratio               61.0%
+Reads on contigs    34529410
+Ratio               78.6%
+1 pe insert size, the largest boundary is 43938106.
+
+LIB(s) information:
+ [LIB] 0, avg_ins 5, reverse 1.
+Time spent on aligning reads: 544s.
+
+Overall time spent on alignment: 9m.
+
+
+********************
+Scaff
+********************
+
+Parameters: scaff -g /home/stellab/private/genome_analysis/results/3_genome_assembly/kmer_49/new_config 
+
+Files for scaffold construction are OK.
+
+There are 1 grad(s), 43938106 read(s), max read len 120.
+Kmer size: 49
+There are 4526455 edge(s) in edge file.
+Mask contigs with coverage lower than 1.2 or higher than 24.0, and strict length 0.
+Average contig coverage is 12, 1653924 contig(s) masked.
+Mask contigs shorter than 51, 2300880 contig(s) masked.
+6068986 arc(s) loaded, average weight is 7.
+2263297 contig(s) loaded.
+Done loading updated edges.
+Time spent on loading updated edges: 12s.
+
+*****************************************************
+Start to load paired-end reads information.
+
+For insert size: 5
+ Total PE links                      13944173
+ Normal PE links on same contig      670664
+ Incorrect oriented PE links         98568
+ PE links of too small insert size   11599666
+ PE links of too large insert size   0
+ Correct PE links                    0
+ Accumulated connections             0
+Use contigs longer than 5 to estimate insert size: 
+ PE links               660908
+ Average insert size    188
+ SD                     983
+0 new connections.
+
+
+All paired-end reads information loaded.
+Time spent on loading paired-end reads information: 22s.
+
+*****************************************************
+Start to construct scaffolds.
+
+***************************
+For insert size: 5
+ Total PE links                0
+ PE links to masked contigs    0
+ On same scaffold PE links     0
+
+
+All links loaded.
+Time spent on constructing scaffolds: 0s.
+
+The final rank
+
+
+No scaffold was constructed.
+
+
+Done with 0 scaffolds, 0 gaps finished, 0 gaps overall.
+
+Overall time spent on constructing scaffolds: 0m.
+Time for the whole pipeline: 35m.
