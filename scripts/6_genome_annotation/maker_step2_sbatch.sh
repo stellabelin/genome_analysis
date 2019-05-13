@@ -3,7 +3,7 @@
 #SBATCH -p core
 #SBATCH -n 4
 #SBATCH -t 2:00:00
-#SBATCH -J genome_annotation_step1
+#SBATCH -J genome_annotation_step2
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user stella.belin@me.com
 
