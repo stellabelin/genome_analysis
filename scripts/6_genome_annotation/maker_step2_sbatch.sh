@@ -20,3 +20,6 @@ gff3_merge -d unzipped_master_datastore_index.log
 maker2zff unzipped.all.gff
 
 fathom genome.ann genome.dna -validate > snap_validate_output.txt
+fathom genome.ann genome.dna -categorize 1000
+fathom uni.ann uni.dna -export 1000 -plus
+forge export.ann export.dna
