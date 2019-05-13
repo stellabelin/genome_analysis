@@ -23,3 +23,5 @@ fathom genome.ann genome.dna -validate > snap_validate_output.txt
 fathom genome.ann genome.dna -categorize 1000
 fathom uni.ann uni.dna -export 1000 -plus
 forge export.ann export.dna
+
+hmm-assembler.pl /home/stellab/private/genome_analysis/raw_data/unzipped.fasta . > unzipped.hmm
