@@ -11,10 +11,10 @@
 module load bioinfo-tools
 module load tophat
 
-bowtie2-build -f /home/stellab/private/genome_analysis/raw_data/unzipped.fasta /home/stellab/private/genome_analysis/results/7_differential_expression/all_sequences/ref
+bowtie2-build -f /home/stellab/private/genome_analysis/raw_data/unzipped.fasta /home/stellab/private/genome_analysis/results/7_differential_expression/ref
 
-tophat -o /home/stellab/private/genome_analysis/results/7_differential_expression/all_sequences \
-/home/stellab/private/genome_analysis/results/7_differential_expression/all_sequences/ref \
+tophat -o /home/stellab/private/genome_analysis/results/7_differential_expression/ \
+/home/stellab/private/genome_analysis/results/7_differential_expression/ref \
 /home/stellab/private/genome_analysis/raw_data/sel3/rna_seq_data/trimmed/sel3_SRR1719013.trim_1P.fastq.gz,\
 /home/stellab/private/genome_analysis/raw_data/sel3/rna_seq_data/trimmed/sel3_SRR1719014.trim_1P.fastq.gz,\
 /home/stellab/private/genome_analysis/raw_data/sel3/rna_seq_data/trimmed/sel3_SRR1719015.trim_1P.fastq.gz,\
