@@ -18,5 +18,5 @@
 
 htseq_data <- read.table("/home/stellab/private/genome_analysis/results/7_differential_expression/htseq_count.txt")
 
-print(typeof(htseq_data))
+print(htseq_data)
 
