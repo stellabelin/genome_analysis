@@ -1,3 +1,12 @@
+install.packages(data.table)
+install.packages(matrixStats)
+install.packages(stats)
+install.packages(gplots)
+install.packages(DESeq2)
+install.packages(ggplot2)
+install.packages(RColorBrewer)
+install.packages(pheatmap)
+
 library(data.table)
 library(matrixStats)
 library(stats)
