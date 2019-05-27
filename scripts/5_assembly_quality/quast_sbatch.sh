@@ -11,8 +11,8 @@
 module load bioinfo-tools
 module load quast
 
-python quast.py -o /home/stellab/private/genome_analysis/results/5_assembly_quality/quast \
--r /home/stellab/private/genome_analysis/raw_data/unzipped.fasta \
--g /home/stellab/private/genome_analysis/results/3_genome_assembly/spades/scaffolds.fasta
-
+quast.py /home/stellab/private/genome_analysis/results/3_genome_assembly/spades/scaffolds.fasta \
+/home/stellab/private/genome_analysis/results/3_genome_assembly/kmer_49/output.scafSeq \
+-o /home/stellab/private/genome_analysis/results/5_assembly_quality/quast/comparison \
+-R /home/stellab/private/genome_analysis/raw_data/unzipped.fasta
 
