@@ -11,7 +11,7 @@
 # library(matrixStats)
 # library(stats)
 # library(gplots)
-# library(DESeq2)
+library(DESeq2)
 # library(ggplot2)
 # library(RColorBrewer)
 # library(pheatmap)
@@ -38,3 +38,11 @@ both_dev_stages <- merge(both_dev_stages,cs16_forelimb,by="V1")
 both_dev_stages <- merge(both_dev_stages,cs16_hindlimb,by="V1")
 
 print(both_dev_stages)
+
+deseq2.matr <- as.matrix(both_dev_stages[c("cs15_forelimb","cs15_hindlimb","cs16_forelimb","cs16_hindlimb")])
+
+print(deseq2.matr)
+
+
+
+
