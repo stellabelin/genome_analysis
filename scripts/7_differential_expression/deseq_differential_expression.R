@@ -16,7 +16,9 @@
 # library(RColorBrewer)
 # library(pheatmap)
 
-htseq_data <- read.table("/home/stellab/private/genome_analysis/results/7_differential_expression/htseq_count.txt")
+cs15_forelimb <- read.table("/home/stellab/private/genome_analysis/results/7_differential_expression/htseq_count.txt")
+cs15_hindlimb <- read.table("/home/stellab/private/genome_analysis/results/7_differential_expression/htseq_count.txt")
+cs16_forelimb <- read.table("/home/stellab/private/genome_analysis/results/7_differential_expression/htseq_count.txt")
+cs16_hindlimb <- read.table("/home/stellab/private/genome_analysis/results/7_differential_expression/htseq_count.txt")
 
-print(htseq_data)
-
+print(cs15_forelimb)
