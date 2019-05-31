@@ -14,6 +14,26 @@ module load htseq
 head -27026 /home/stellab/private/genome_analysis/results/6_genome_annotation/unzipped.maker.output/unzipped.all.gff > \
 /home/stellab/private/genome_analysis/results/6_genome_annotation/unzipped.maker.output/unzipped_no_fasta.all.gff
 
-htseq-count -f bam -s no -t gene -i ID /home/stellab/private/genome_analysis/results/7_differential_expression/accepted_hits.bam \
+htseq-count -f bam -s no -t gene -i ID /home/stellab/private/genome_analysis/results/7_differential_expression/cs15_forelimb/accepted_hits.bam \
 /home/stellab/private/genome_analysis/results/6_genome_annotation/unzipped.maker.output/unzipped_no_fasta.all.gff > \
-/home/stellab/private/genome_analysis/results/7_differential_expression/htseq_count.txt
+/home/stellab/private/genome_analysis/results/7_differential_expression/cs15_forelimb/htseq_count.txt
+
+htseq-count -f bam -s no -t gene -i ID /home/stellab/private/genome_analysis/results/7_differential_expression/cs15_hindlimb/accepted_hits.bam \
+/home/stellab/private/genome_analysis/results/6_genome_annotation/unzipped.maker.output/unzipped_no_fasta.all.gff > \
+/home/stellab/private/genome_analysis/results/7_differential_expression/cs15_hindlimb/htseq_count.txt
+
+htseq-count -f bam -s no -t gene -i ID /home/stellab/private/genome_analysis/results/7_differential_expression/cs16_forelimb/accepted_hits.bam \
+/home/stellab/private/genome_analysis/results/6_genome_annotation/unzipped.maker.output/unzipped_no_fasta.all.gff > \
+/home/stellab/private/genome_analysis/results/7_differential_expression/cs16_forelimb/htseq_count.txt
+
+htseq-count -f bam -s no -t gene -i ID /home/stellab/private/genome_analysis/results/7_differential_expression/cs16_hindlimb/accepted_hits.bam \
+/home/stellab/private/genome_analysis/results/6_genome_annotation/unzipped.maker.output/unzipped_no_fasta.all.gff > \
+/home/stellab/private/genome_analysis/results/7_differential_expression/cs16_hindlimb/htseq_count.txt
+
+htseq-count -f bam -s no -t gene -i ID /home/stellab/private/genome_analysis/results/7_differential_expression/cs17_forelimb/accepted_hits.bam \
+/home/stellab/private/genome_analysis/results/6_genome_annotation/unzipped.maker.output/unzipped_no_fasta.all.gff > \
+/home/stellab/private/genome_analysis/results/7_differential_expression/cs17_forelimb/htseq_count.txt
+
+htseq-count -f bam -s no -t gene -i ID /home/stellab/private/genome_analysis/results/7_differential_expression/cs17_hindlimb/accepted_hits.bam \
+/home/stellab/private/genome_analysis/results/6_genome_annotation/unzipped.maker.output/unzipped_no_fasta.all.gff > \
+/home/stellab/private/genome_analysis/results/7_differential_expression/cs17_hindlimb/htseq_count.txt
