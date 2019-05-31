@@ -11,4 +11,4 @@
 module load bioinfo-tools
 
 # Your commands
-/sw/bioinfo/SOAPdenovo/2.04-r240/rackham/bin/SOAPdenovo-63mer all -s confiq_new_parameters.config -K 49 -o /home/stellab/private/genome_analysis/results/3_genome_assembly/kmer_49/new_config
+/sw/bioinfo/SOAPdenovo/2.04-r240/rackham/bin/SOAPdenovo-63mer all -s soapdenovo.config -K 49 -o /home/stellab/private/genome_analysis/results/3_genome_assembly/kmer_49/new_config
